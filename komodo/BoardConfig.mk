@@ -20,6 +20,8 @@ TARGET_SCREEN_DENSITY := 480
 BOARD_USES_GENERIC_AUDIO := true
 USES_DEVICE_GOOGLE_CAIMITO := true
 
+BOARD_KERNEL_IMAGE_NAME := Image.lz4
+
 include device/google/caimito/device-caimito-common.mk
 
 include device/google/zumapro/BoardConfig-common.mk

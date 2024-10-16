@@ -18,6 +18,14 @@ $(call inherit-product, device/google/caimito/aosp_komodo.mk)
 
 $(call inherit-product, vendor/yaap/config/common_full_phone.mk)
 
+# Gapps
+TARGET_BUILD_GAPPS := true
+
+# Boot animation
+scr_resolution := 1080
+TARGET_SCREEN_HEIGHT := 2400
+TARGET_SCREEN_WIDTH := 1080
+
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 9 Pro XL
 PRODUCT_NAME := komodo

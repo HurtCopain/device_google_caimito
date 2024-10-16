@@ -20,6 +20,8 @@ $(call inherit-product, vendor/yaap/config/common_full_phone.mk)
 
 # Gapps
 TARGET_BUILD_GAPPS := true
+TARGET_USES_AOSP_APNS_CONF := true
+TARGET_USES_PIXEL_IMAGES_BY_DEFAULT := true
 
 # Boot animation
 scr_resolution := 1080

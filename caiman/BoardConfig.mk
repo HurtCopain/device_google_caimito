@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := device/google/caimito/caiman/device_framework_compatibility_matrix.xml
+
 TARGET_BOARD_INFO_FILE := device/google/caimito/board-info.txt
 TARGET_BOOTLOADER_BOARD_NAME := caiman
 TARGET_SCREEN_DENSITY := 480
